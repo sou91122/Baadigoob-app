@@ -1,0 +1,7 @@
+{
+  "name": "baadigoob-ecommerce",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

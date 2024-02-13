@@ -1,0 +1,68 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button icon="chevron-back-outline" defaultHref="login"></ion-back-button>
+    </ion-buttons>
+    <ion-title class="header">register</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="pic-area">
+    <img src="../../assets/images/logo.png" loading="lazy" alt=""/>
+  </div>
+  <div class="bottom">
+    <div class="top1">
+      <h2>Register</h2>
+    </div>
+    <div class="flex">
+      <ion-item class="ion-no-padding" lines="none">
+        <div class="as">
+          <ion-label position="floating">First Name</ion-label>
+          <ion-input value="John"></ion-input>
+        </div>
+      </ion-item>
+      <ion-item class="ion-no-padding" lines="none">
+        <div class="as">
+          <ion-label position="floating">Last Name</ion-label>
+          <ion-input value="Doe"></ion-input>
+        </div>
+      </ion-item>
+      <ion-item class="ion-no-padding" lines="none">
+        <div class="as">
+          <ion-label position="floating">Email</ion-label>
+          <ion-input value="johndoe@gmail.com"></ion-input>
+        </div>
+      </ion-item>
+      <ion-item class="ion-no-padding" lines="none">
+        <div class="as">
+          <ion-label position="floating">Password</ion-label>
+          <ion-icon name="eye-off-outline" slot="end"></ion-icon>
+          <ion-input value="*********"></ion-input>
+        </div>
+      </ion-item>
+      <ion-item class="ion-no-padding" lines="none">
+        <div class="as">
+          <ion-label position="floating">Confirm Password</ion-label>
+          <ion-icon name="eye-off-outline" slot="end"></ion-icon>
+          <ion-input value="*********"></ion-input>
+<!--          <span>Show</span>-->
+        </div>
+      </ion-item>
+      <ion-item class="ion-no-padding" lines="none">
+        <div class="as">
+          <ion-label position="floating">Mobile Number</ion-label>
+          <ion-input value="9434112233"></ion-input>
+        </div>
+      </ion-item>
+    </div>
+
+  </div>
+</ion-content>
+<ion-footer mode="ios">
+  <div class="buynow">
+    <ion-button class="full" expand="block" routerLink="/tabs/home">
+      Sign
+    </ion-button>
+  </div>
+</ion-footer>

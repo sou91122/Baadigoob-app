@@ -1,0 +1,61 @@
+.main-area {
+  width: 100%;
+  position: relative;
+  margin-top: 16px;
+  .inner-text{
+    position: relative;
+    p{
+      text-transform: capitalize;
+      color: #4e4e4e;
+      font-weight: 500;
+    }
+  }
+}
+
+.ion-padding {
+  text-align: center;
+
+  .image-area {
+    position: relative;
+
+    img {
+      width: 189px;
+      margin: 15px 0 25px;
+    }
+  }
+
+  .listing {
+    padding: 0 5px;
+
+    .list-single {
+      background: linear-gradient(to right, #67a0e6, #f79557);
+      text-align: left;
+      padding: 6px 7px;
+      margin-bottom: 11px;
+      border-radius: 30px;
+      display: flex;
+      justify-content: flex-start;
+
+      span {
+        background: #fff;
+        width: 36px;
+        height: 36px;
+        text-align: center;
+        border-radius: 50%;
+      }
+
+      img {
+        margin: 8px 0 0;
+        width: 23px;
+      }
+
+      h4 {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin: 9px 0 4px 10px;
+      }
+    }
+  }
+}

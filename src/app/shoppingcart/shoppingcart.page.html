@@ -1,0 +1,429 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button icon="chevron-back-outline" defaultHref="home"></ion-back-button>
+    </ion-buttons>
+    <ion-title class="header">shopping cart</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="product_wrapper">
+    <div class="cart-item">
+      <div class="cart-top">
+        <ion-row>
+          <ion-col size="4">
+            <img src="assets/images/product-4.jpg" alt="">
+          </ion-col>
+          <ion-col size="8">
+            <p>Product Title Here</p>
+            <ul>
+              <li>
+                Size:
+                <span>
+                  XXL
+                </span>
+              </li>
+              <li>
+                Color:
+                <span>
+                  Black
+                </span>
+              </li>
+            </ul>
+            <div class="price">
+              <h3>
+                $180.00
+              </h3>
+              <h4>
+                $45.00
+              </h4>
+            </div>
+          </ion-col>
+        </ion-row>
+      </div>
+      <div class="cart-bottom">
+        <ion-row>
+          <ion-col size="4">
+            <div class="increment-block">
+              <ion-icon name="remove" (click)="DecreaseQty()"></ion-icon>
+              {{qty}}
+              <ion-icon name="add" (click)="IncreaseQty()"></ion-icon>
+            </div>
+          </ion-col>
+          <ion-col size="5">
+            <ion-button>Save Later</ion-button>
+          </ion-col>
+          <ion-col size="3">
+            <ion-button><ion-icon name="trash"></ion-icon></ion-button>
+          </ion-col>
+        </ion-row>
+      </div>
+    </div>
+    <div class="cart-item">
+      <div class="cart-top">
+        <ion-row>
+          <ion-col size="4">
+            <img src="assets/images/product-7.jpg" loading="lazy" alt=""/>
+          </ion-col>
+          <ion-col size="8">
+            <p>Product Title Here</p>
+            <ul>
+              <li>
+                Size:
+                <span>
+                  XXL
+                </span>
+              </li>
+              <li>
+                Color:
+                <span>
+                  White
+                </span>
+              </li>
+            </ul>
+            <div class="price">
+              <h3>
+                $180.00
+              </h3>
+              <h4>
+                $45.00
+              </h4>
+            </div>
+          </ion-col>
+        </ion-row>
+      </div>
+      <div class="cart-bottom">
+        <ion-row>
+          <ion-col size="4">
+            <div class="increment-block">
+              <ion-icon name="remove" (click)="DecreaseQty()"></ion-icon>
+              {{qty}}
+              <ion-icon name="add" (click)="IncreaseQty()"></ion-icon>
+            </div>
+          </ion-col>
+          <ion-col size="5">
+            <ion-button>Save Later</ion-button>
+          </ion-col>
+          <ion-col size="3">
+            <ion-button><ion-icon name="trash"></ion-icon></ion-button>
+          </ion-col>
+        </ion-row>
+      </div>
+    </div>
+    <div class="cart-item">
+      <div class="cart-top">
+        <ion-row>
+          <ion-col size="4">
+            <img src="assets/images/product-1.jpg" loading="lazy" alt=""/>
+          </ion-col>
+          <ion-col size="8">
+            <p>Product Title Here</p>
+            <ul>
+              <li>
+                Size:
+                <span>
+                  L
+                </span>
+              </li>
+              <li>
+                Color:
+                <span>
+                  White
+                </span>
+              </li>
+            </ul>
+            <div class="price">
+              <h3>
+                $680.00
+              </h3>
+              <h4>
+                $268.00
+              </h4>
+            </div>
+          </ion-col>
+        </ion-row>
+      </div>
+      <div class="cart-bottom">
+        <ion-row>
+          <ion-col size="4">
+            <div class="increment-block">
+              <ion-icon name="remove" (click)="DecreaseQty()"></ion-icon>
+              {{qty}}
+              <ion-icon name="add" (click)="IncreaseQty()"></ion-icon>
+            </div>
+          </ion-col>
+          <ion-col size="5">
+            <ion-button>Save Later</ion-button>
+          </ion-col>
+          <ion-col size="3">
+            <ion-button><ion-icon name="trash"></ion-icon></ion-button>
+          </ion-col>
+        </ion-row>
+      </div>
+    </div>
+    <div class="cart-item">
+      <div class="cart-top">
+        <ion-row>
+          <ion-col size="4">
+            <img src="assets/images/product-2.jpg" loading="lazy" alt=""/>
+          </ion-col>
+          <ion-col size="8">
+            <p>Product Title Here</p>
+            <ul>
+              <li>
+                Size:
+                <span>
+                  L
+                </span>
+              </li>
+              <li>
+                Color:
+                <span>
+                  Off White
+                </span>
+              </li>
+            </ul>
+            <div class="price">
+              <h3>
+                $150.00
+              </h3>
+              <h4>
+                $45.00
+              </h4>
+            </div>
+          </ion-col>
+        </ion-row>
+      </div>
+      <div class="cart-bottom">
+        <ion-row>
+          <ion-col size="4">
+            <div class="increment-block">
+              <ion-icon name="remove" (click)="DecreaseQty()"></ion-icon>
+              {{qty}}
+              <ion-icon name="add" (click)="IncreaseQty()"></ion-icon>
+            </div>
+          </ion-col>
+          <ion-col size="5">
+            <ion-button>Save Later</ion-button>
+          </ion-col>
+          <ion-col size="3">
+            <ion-button><ion-icon name="trash"></ion-icon></ion-button>
+          </ion-col>
+        </ion-row>
+      </div>
+    </div>
+
+    <div class="cart-item">
+      <div class="cart-top">
+        <ion-row>
+          <ion-col size="4">
+            <img src="assets/images/product-4.jpg" alt="">
+          </ion-col>
+          <ion-col size="8">
+            <p>Product Title Here</p>
+            <ul>
+              <li>
+                Size:
+                <span>
+                  XXL
+                </span>
+              </li>
+              <li>
+                Color:
+                <span>
+                  Black
+                </span>
+              </li>
+            </ul>
+            <div class="price">
+              <h3>
+                $180.00
+              </h3>
+              <h4>
+                $45.00
+              </h4>
+            </div>
+          </ion-col>
+        </ion-row>
+      </div>
+      <div class="cart-bottom">
+        <ion-row>
+          <ion-col size="4">
+            <div class="increment-block">
+              <ion-icon name="remove" (click)="DecreaseQty()"></ion-icon>
+              {{qty}}
+              <ion-icon name="add" (click)="IncreaseQty()"></ion-icon>
+            </div>
+          </ion-col>
+          <ion-col size="5">
+            <ion-button>Save Later</ion-button>
+          </ion-col>
+          <ion-col size="3">
+            <ion-button><ion-icon name="trash"></ion-icon></ion-button>
+          </ion-col>
+        </ion-row>
+      </div>
+    </div>
+    <div class="cart-item">
+      <div class="cart-top">
+        <ion-row>
+          <ion-col size="4">
+            <img src="assets/images/product-7.jpg" loading="lazy" alt=""/>
+          </ion-col>
+          <ion-col size="8">
+            <p>Product Title Here</p>
+            <ul>
+              <li>
+                Size:
+                <span>
+                  XXL
+                </span>
+              </li>
+              <li>
+                Color:
+                <span>
+                  White
+                </span>
+              </li>
+            </ul>
+            <div class="price">
+              <h3>
+                $180.00
+              </h3>
+              <h4>
+                $45.00
+              </h4>
+            </div>
+          </ion-col>
+        </ion-row>
+      </div>
+      <div class="cart-bottom">
+        <ion-row>
+          <ion-col size="4">
+            <div class="increment-block">
+              <ion-icon name="remove" (click)="DecreaseQty()"></ion-icon>
+              {{qty}}
+              <ion-icon name="add" (click)="IncreaseQty()"></ion-icon>
+            </div>
+          </ion-col>
+          <ion-col size="5">
+            <ion-button>Save Later</ion-button>
+          </ion-col>
+          <ion-col size="3">
+            <ion-button><ion-icon name="trash"></ion-icon></ion-button>
+          </ion-col>
+        </ion-row>
+      </div>
+    </div>
+    <div class="cart-item">
+      <div class="cart-top">
+        <ion-row>
+          <ion-col size="4">
+            <img src="assets/images/product-1.jpg" loading="lazy" alt=""/>
+          </ion-col>
+          <ion-col size="8">
+            <p>Product Title Here</p>
+            <ul>
+              <li>
+                Size:
+                <span>
+                  L
+                </span>
+              </li>
+              <li>
+                Color:
+                <span>
+                  White
+                </span>
+              </li>
+            </ul>
+            <div class="price">
+              <h3>
+                $680.00
+              </h3>
+              <h4>
+                $268.00
+              </h4>
+            </div>
+          </ion-col>
+        </ion-row>
+      </div>
+      <div class="cart-bottom">
+        <ion-row>
+          <ion-col size="4">
+            <div class="increment-block">
+              <ion-icon name="remove" (click)="DecreaseQty()"></ion-icon>
+              {{qty}}
+              <ion-icon name="add" (click)="IncreaseQty()"></ion-icon>
+            </div>
+          </ion-col>
+          <ion-col size="5">
+            <ion-button>Save Later</ion-button>
+          </ion-col>
+          <ion-col size="3">
+            <ion-button><ion-icon name="trash"></ion-icon></ion-button>
+          </ion-col>
+        </ion-row>
+      </div>
+    </div>
+    <div class="cart-item">
+      <div class="cart-top">
+        <ion-row>
+          <ion-col size="4">
+            <img src="assets/images/product-2.jpg" loading="lazy" alt=""/>
+          </ion-col>
+          <ion-col size="8">
+            <p>Product Title Here</p>
+            <ul>
+              <li>
+                Size:
+                <span>
+                  L
+                </span>
+              </li>
+              <li>
+                Color:
+                <span>
+                  Off White
+                </span>
+              </li>
+            </ul>
+            <div class="price">
+              <h3>
+                $150.00
+              </h3>
+              <h4>
+                $45.00
+              </h4>
+            </div>
+          </ion-col>
+        </ion-row>
+      </div>
+      <div class="cart-bottom">
+        <ion-row>
+          <ion-col size="4">
+            <div class="increment-block">
+              <ion-icon name="remove" (click)="DecreaseQty()"></ion-icon>
+              {{qty}}
+              <ion-icon name="add" (click)="IncreaseQty()"></ion-icon>
+            </div>
+          </ion-col>
+          <ion-col size="5">
+            <ion-button>Save Later</ion-button>
+          </ion-col>
+          <ion-col size="3">
+            <ion-button><ion-icon name="trash"></ion-icon></ion-button>
+          </ion-col>
+        </ion-row>
+      </div>
+    </div>
+  </div>
+</ion-content>
+
+<ion-footer>
+  <div class="footer-button">
+    <ion-button expand="block" fill="outline">buy more</ion-button>
+    <ion-button>checkout</ion-button>
+  </div>
+</ion-footer>
